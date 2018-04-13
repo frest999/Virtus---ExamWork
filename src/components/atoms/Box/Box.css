@@ -1,0 +1,44 @@
+.Box{
+  width: 320px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-bottom: 30px;
+}
+
+.Box header{
+  padding: 20px 10px;
+  background-color: #3a3e52;
+  text-align: center;
+  font: bold 1.25rem 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.InBoxPoint{
+  margin-left: 5px;
+  color: #2196f3;
+}
+
+.InBoxPoint:after{
+  content: ")";
+  font: bold 1.25rem 'Montserrat', sans-serif;
+  color: #fff;
+  margin-left: 2px;
+}
+
+.InBoxPoint:before{
+  content: "(";
+  font: bold 1.25rem 'Montserrat', sans-serif;
+  color: #fff;
+  margin-right: 2px;
+}
+
+@media (max-width: 1330px) {
+  .Box{
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 370px) {
+  .Box{
+    width: 240px;
+  }
+}

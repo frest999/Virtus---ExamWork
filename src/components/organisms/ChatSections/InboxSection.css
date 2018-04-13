@@ -1,0 +1,32 @@
+.ChatWrap{
+  display: flex;
+}
+
+.ChatListBlock{
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-right: 20px;
+}
+
+.ChatMessageBlock{
+  width: 45%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-right: 20px;
+}
+
+.ChatUserInfo{
+  width: 25%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.TrashTitleBlock{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TrashTitle{
+  font: bold 1.125rem "Montserrat", sans-serif;
+  color: #fff;
+}

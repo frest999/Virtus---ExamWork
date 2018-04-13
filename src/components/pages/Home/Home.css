@@ -1,0 +1,19 @@
+.HomePageContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 100%;
+}
+
+@media (max-width: 1330px) {
+  .HomePageContent{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+

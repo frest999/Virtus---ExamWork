@@ -1,0 +1,45 @@
+
+.MobileMenu{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  top: 24%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 9999;
+}
+
+
+.MobileMenu li{
+  margin: 0;
+  padding: 10px;
+}
+
+.MobileMenuBtn{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  display: none;
+}
+
+.MobileMenuBtn:hover{
+  background-color: #2196f3;
+}
+
+.MobileMenuBtn:before{
+  font-family: FontAwesome;
+  content: "\f0c9";
+}
+
+@media (max-width: 720px) {
+  .MobileMenu{
+    top: 39.5%;
+  }
+
+  .MobileMenuBtn{
+    display: flex;
+  }
+}

@@ -1,0 +1,103 @@
+.ColumnsUserTable{
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.UserTableTitle{
+  background-color: #505464;
+  color: #fff;
+  font: bold 1rem "Montserrat", sans-serif;
+}
+
+.UserTableBody{
+  border: 1px solid #505464!important;
+}
+
+.UserTableBody tr{
+  border-bottom: 1px solid #505464;
+}
+
+.UserTableTitle>thead>tr>th{
+ text-align: center;
+}
+
+.UserNameCol{
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.UserPhoto{
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
+  margin-right: 20px;
+  position: relative;
+}
+.UserPhoto img{
+  width: 100%;
+  height: 100%;
+}
+
+.UserPhotoPost{
+  display: flex;
+}
+.UserNameCol{
+  justify-content: flex-start!important;
+}
+
+
+.UserTableMenu{
+  text-align: center;
+  position: relative;
+}
+
+.UserName, .UserPost, .ActivityStatus, .EmailLink,.PhoneLink{
+  font: 700 1rem 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.UserPost{
+  font-weight: normal;
+  color: #aab8d6;
+}
+
+.ActivityStatus{
+  font-weight: normal;
+}
+.OnlineUserStatus{
+  color: #00bf1b;
+}
+.OfflineUserStatus{
+  color: #8492af;
+}
+
+.OnlineUserStatus:before, .OfflineUserStatus:before{
+  font-family: FontAwesome;
+  content: "\f017";
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.EmailLink, .PhoneLink{
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.EmailLink:hover, .PhoneLink:hover{
+  color: #5384ff;
+  text-decoration: none;
+}
+
+.OnlineImg:before{
+  content: "";
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #00bf1b;
+  border: 2px solid #fff;
+  position: absolute;
+  right: 2px;
+  top: 1px;
+}

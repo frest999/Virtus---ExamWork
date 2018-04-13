@@ -1,0 +1,19 @@
+.UserSectionHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196f3;
+  padding: 20px 30px 20px 40px;
+  margin-bottom: 40px;
+}
+
+.RightUsersCol{
+  display: flex;
+  align-items: center;
+}
+
+.UserSort, .UserSectionTitle{
+  font: normal 1rem "Montserrat", sans-serif;
+  color: #fff;
+  margin-right: 30px;
+}

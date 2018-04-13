@@ -1,0 +1,69 @@
+.StatisticColumn p{
+  font: normal .8125rem "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.StatisticsTableHeader{
+  background-color: #3a3e52;
+}
+
+.StatisticsTableHeader thead tr th{
+  padding: 15px 0;
+  font: normal .8125rem "Montserrat", sans-serif;
+  color: #9ca1b2;
+}
+
+.StatisticsTableHeader thead tr th:first-child{
+  color: #fff;
+  padding-left: 40px;
+}
+
+.StatisticStatusActive:before{
+  font-family: FontAwesome;
+  content: "\f111";
+  color: #4caf50;
+  font-size: .625rem;
+  margin-right: 10px;
+}
+
+.StatisticStatusFalse:before{
+  font-family: FontAwesome;
+  content: "\f111";
+  color: #f44336;
+  font-size: .625rem;
+  margin-right: 10px;
+}
+
+.CompainCol{
+  padding-left: 40px;
+}
+
+.CaretDown:before{
+  font-family: FontAwesome;
+  content: "\f107";
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.CaretUp:before{
+  font-family: FontAwesome;
+  content: "\f106";
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.StatisticsTableBody tr{
+  border-bottom: 1px solid #4d5060;
+}
+
+.StatisticsTableBody tr td{
+  padding: 20px 0!important;
+}
+
+.StatisticsTableBody tr:last-child{
+  border-bottom: none;
+}
+
+.react-bs-container-header{
+  margin: 0;
+}

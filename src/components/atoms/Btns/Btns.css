@@ -1,0 +1,169 @@
+.Btn{
+  background-color: transparent;
+  border: none;
+}
+
+.EnterBtnBlock{
+  text-align: center;
+}
+
+.EnterBtn{
+  box-sizing: border-box;
+  background-color: #2196f3;
+  width: 200px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font: normal 1rem 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.EnterBtn:hover{
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  background-color: #2a2c3b;
+}
+
+.AddBtn{
+  font: normal 1.125rem "Montseratt", sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+  border: 2px solid #228be0;
+  border-radius: 50px;
+  width: 130px;
+  max-width: 100%;
+  padding: 10px 20px;
+}
+
+.AddBtn:after{
+  font-family: FontAwesome;
+  content: "\f067";
+  font-size: 1rem;
+  margin-left: 25px;
+  color: #228be0;
+}
+
+.AddBtn:hover{
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  border: 2px solid #fff;
+  color: #228be0;
+}
+
+.ProfileMenuBtn:before{
+  font-family: FontAwesome;
+  content: "\f078";
+  font-size: .875rem;
+  color: #fff;
+}
+
+.ProfileMenuItems{
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #9fa0a1;
+  padding: 20px;
+  position: absolute;
+  top: 85px;
+  right: 30px;
+  z-index: 9910;
+  border-radius: 5px;
+}
+
+.ProfileMenuItems p{
+  font: normal .875rem "Montserrat", sans-serif;
+  color: #9fa0a1;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.ProfileMenuItems ul{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e1e4e8;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+
+}
+
+.ProfileMenuItems ul li, .SignOutBtn {
+  padding: 5px;
+  font: normal .875rem "Montserrat", sans-serif;
+}
+
+.ProfileMenuItems ul li:hover{
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.UserName{
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.SignOutBtn{
+  color: #9fa0a1;
+}
+
+.SignOutBtn:before{
+  font-family: FontAwesome;
+  content: "\f08b";
+  font-size: 1.2rem;
+  margin-right: 5px;
+  color: #2196f3;
+}
+
+.SignOutBtn:hover{
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  color: #2196f3;
+}
+
+.CoversationBtn:before{
+  font-family: FontAwesome;
+  content: "\f067";
+  font-size: .8125rem;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.CoversationBtn{
+  background-color: #2196f3;
+  width: 80%;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+
+.CoversationBtn:hover{
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  background-color: #585c70;
+}
+
+@media (max-width: 720px) {
+  .AddBtn{
+    display: none;
+  }
+
+  .ProfileMenuItems{
+    top: 135px;
+    right: 30%;
+  }
+}
+
+
+@media (max-width: 470px) {
+  .ProfileMenuItems{
+    top: 135px;
+    right: 10px;
+  }
+}

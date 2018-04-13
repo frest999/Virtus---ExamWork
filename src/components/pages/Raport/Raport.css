@@ -1,0 +1,15 @@
+.RaportSectionHeader, .RightHeaderRaport{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.RightHeaderRaport p{
+  font: normal 1rem "Montserrat", sans-serif;
+  color: #9ea3b4;
+  margin-right: 20px;
+}
+
+.RaportSectionHeader{
+  padding-right: 40px;
+}

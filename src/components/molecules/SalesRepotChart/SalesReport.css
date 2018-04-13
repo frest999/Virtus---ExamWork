@@ -1,0 +1,82 @@
+.highcharts-point{
+  stroke: none
+}
+
+.highcharts-point:hover{
+  fill: #2196f3;
+}
+
+.highcharts-tick{
+  display: none;
+}
+
+.highcharts-axis-line{
+ display: none;
+}
+
+.highcharts-grid-line:last-child{
+  display: none;
+}
+
+.highcharts-xaxis-labels text{
+  fill: #9ca1b2!important;
+  color: #9ca1b2!important;
+}
+
+.SalesRaportChart{
+  width: 485px;
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.SalesRaportChart header{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #2f3242;
+}
+
+.SalesRaportChart header:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 97%;
+  left: 5px;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #515464;
+}
+
+.SalesRaportChart header h2{
+  font: bold 1.25rem 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.SalesRaportChart header p{
+  font: bold 1rem 'Montserrat', sans-serif;
+  color: #9ea3b4;
+  margin-right: 20px;
+}
+
+.RightChartHeader{
+  display: flex;
+  align-items: center;
+}
+
+.Selects option{
+  color: #2a2c3b;
+}
+
+@media (max-width: 1330px) {
+  .SalesRaportChart{
+   margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 390px) {
+  .SalesRaportChart{
+    display: none;
+  }
+}

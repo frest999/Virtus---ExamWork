@@ -1,0 +1,14 @@
+.content{
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.ContentBlock{
+  display: flex;
+}
+
+.ComponentStyle{
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background-color: #2a2c3b;
+  width: 100%;
+}

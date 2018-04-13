@@ -1,0 +1,29 @@
+.TabsBlock{
+  background-color: #2f3242;
+  width: 900px;
+  max-width: 100%;
+  border: 1px solid #2a2c3b;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.TabContent{
+  box-sizing: border-box;
+  padding: 50px 30px;
+  background-color: #fff;
+  width: 900px;
+  max-width: 100%;
+}
+.TabTitle {
+  font: normal 1.75rem "Montserrat", sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #2a2c3b;
+}
+.TabTitle span{
+  color: #2090ea;
+}

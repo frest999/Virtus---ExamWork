@@ -1,0 +1,25 @@
+.AuthorizationPage{
+  height: 100vh;
+  background: linear-gradient(rgba(43, 46, 74, 0.7) 100%, rgba(0, 0, 0, 0.1) 100%),
+              url("../../../assets/img/start-bg.jpg") no-repeat 50% 0;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TabsAndLogo{
+  position: relative;
+}
+
+.MainLogoBlock{
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+.MainLogoBlock h1{
+  position: absolute;
+  top: 0;
+  text-indent: -9999px;
+}

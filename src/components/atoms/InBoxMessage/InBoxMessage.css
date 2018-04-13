@@ -1,0 +1,59 @@
+.InBoxMessage, .InBoxHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.InBoxMessage{
+  box-sizing: border-box;
+  padding: 25px;
+  border-top: 1px solid #505464;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.InBoxInfo{
+  width: 215px;
+}
+
+.InBoxPhoto{
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.InBoxPhoto img{
+  width: 100%;
+  height: 100%;
+}
+
+.InBoxName{
+  font: bold .8rem 'Montserrat', sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.InBoxTime{
+  font: normal .7125rem 'Montserrat', sans-serif;
+  color: #9ca1b2;
+  margin-bottom: 20px;
+}
+
+.InBoxText{
+  font: normal .8125rem 'Montserrat', sans-serif;
+  color: #9ca1b2;
+}
+
+.UnreadMessage{
+ color: #2196f3;
+}
+
+.NotificationList>div{
+  border-left: 1px solid #505464;
+  border-right: 1px solid #505464;
+}
+
+.NotificationList>div:last-child{
+  border-bottom: 1px solid #505464;
+}

@@ -1,0 +1,49 @@
+.WorkflowColumn{
+  margin-right: 20px;
+  padding-bottom: 165px;
+  width: 300px;
+}
+
+.WorkflowColHeader{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.WorkflowColHeader h2{
+  font: normal 1.25rem "Montserrat", sans-serif;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.WorkflowColHeader:after{
+  font-family: FontAwesome;
+  content: "\f054";
+  font-size: .875rem;
+  position: absolute;
+  right: 50px;
+  top: 15px;
+  color: #9ea3b4;
+}
+
+.WorkflowNameCol{
+  font: normal .875rem "Montserrat", sans-serif;
+  color: #9ea3b4;
+}
+
+
+.WorkflowColPrice{
+  margin-left: 10px;
+  color: #2196f3;
+}
+
+.WorkflowColPrice:before{
+  font-family: FontAwesome;
+  content: "\f111";
+  font-size: .4rem;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #9ea3b4;
+}

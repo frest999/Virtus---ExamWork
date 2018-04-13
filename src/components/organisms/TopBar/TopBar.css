@@ -1,0 +1,39 @@
+.TopBar{
+  box-sizing: border-box;
+  background-color: #2f3242;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MainLogo h1{
+  position: absolute;
+  top: 0;
+  text-indent: -9999px;
+}
+
+.TopRightBlock{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TopRightBlock li{
+  margin-right: 40px;
+}
+
+.TopRightBlock li:last-child{
+  margin-right: 0;
+}
+
+
+@media (max-width: 720px) {
+  .TopBar{
+    flex-direction: column;
+  }
+  .MainLogo{
+    margin-bottom: 20px;
+  }
+
+}

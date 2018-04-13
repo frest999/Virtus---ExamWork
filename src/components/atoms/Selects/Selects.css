@@ -1,0 +1,24 @@
+.Selects{
+  border: 1px solid #515464;
+  padding: 10px 20px;
+  font: normal 1rem "Montserrat", sans-serif;
+  color: #9ea3b4;
+  border-radius: 50px;
+  background-color: transparent;
+  background: url('../../../assets/img/chevron-down.png') no-repeat  90% center;
+  width: 150px;
+  outline: none;
+  appearance: none;
+}
+
+
+.SelectWorkflow{
+  width: 160px;
+  color: #fff;
+  border: 1px solid #fff;
+  background: url('../../../assets/img/chevron-down-white.png') no-repeat  90% center;
+}
+
+.SelectWorkflow option{
+  color: #000;
+}

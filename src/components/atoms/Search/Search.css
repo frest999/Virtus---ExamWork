@@ -1,0 +1,64 @@
+
+.SearchBtn{
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+
+.SearchBtn:before{
+  font-family: FontAwesome;
+  content: "\f002";
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.Search:hover{
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  color: #2196f3;
+}
+
+.SearchBtnClose{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.SearchBtnClose:before{
+
+  font-family: FontAwesome;
+  content: "\f00d";
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+
+.SearchForm{
+  display: flex;
+  transition: .5s;
+}
+
+.SearchForm input{
+  transition: .5s;
+  background-color: #2f3242;
+  border: 1px solid #2c2f3f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  color: #585c70;
+  margin-right: 10px;
+}
+
+.SearchForm input::placeholder{
+  color: #505464;
+}
+
+@media (max-width: 380px) {
+  .SearchBtn{
+    display: none;
+  }
+  .SearchForm{
+    display: none;
+  }
+}

@@ -1,0 +1,62 @@
+.SideBar{
+  background-color: #2f3242;
+  width: 100px;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.LeftBarIcon:before{
+  font-family: FontAwesome;
+  font-size: 1.5rem;
+  color: #757da4;
+}
+
+.HomeIcon:before{
+  content: "\f015";
+}
+
+.WorkflowIcon:before{
+  content: "\f0c9";
+}
+
+.ProjectsIcon:before{
+  content: "\f201";
+}
+
+.RaportIcon:before{
+  content: "\f0e0";
+}
+
+.InboxIcon:before{
+  content: "\f0c0";
+}
+
+.RaportIcon{
+  position: relative;
+}
+
+.SideBar li{
+  margin-bottom: 50px;
+}
+
+.SideBar li a{
+  text-decoration: none;
+}
+
+.ActiveMainNav:before{
+  color: #fff;
+}
+
+
+
+@media (max-width: 800px) {
+  .SideBar{
+    display: none;
+  }
+
+
+}

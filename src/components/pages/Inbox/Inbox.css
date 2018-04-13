@@ -1,0 +1,45 @@
+.InboxHeader{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2196f3;
+  padding: 20px 30px 20px 40px;
+}
+
+.LeftInboxHeader, .RightInboxHeader{
+  display: flex;
+  align-items: center;
+}
+
+.LeftInboxHeader h2, .RightInboxHeader h2{
+  margin-right: 30px;
+  font: normal 1rem "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.LeftInboxHeader h2{
+  color: #2a2c3b;
+  cursor: pointer;
+}
+
+
+.ChatIcon:before{
+  font-family: FontAwesome;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.InboxHeaderIcon:before{
+  content: "\f01c";
+}
+
+.SentHeaderIcon:before{
+  content: "\f1d8";
+}
+
+.TrashHeaderIcon:before{
+  content: "\f1f8";
+}
+
+.ActiveChat{
+  color: #fff!important;
+}

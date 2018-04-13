@@ -1,0 +1,50 @@
+.InputsBlock{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MainFormInputs{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #505464;
+  margin-bottom: 30px;
+  width: 340px;
+  color: #505464;
+  padding: 0 5px 5px 50px;
+  font: normal 1.5rem 'Roboto', sans-serif;
+  position: relative;
+}
+
+.MainFormInputs:last-child{
+  margin-bottom: 50px;
+}
+
+::-webkit-input-placeholder {color:#505464;}
+::-moz-placeholder          {color:#505464;}
+:-moz-placeholder           {color:#505464;}
+:-ms-input-placeholder      {color:#505464;}
+
+.MainFormInputs:hover{
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  border-bottom: 1px solid #2196f3;
+}
+
+.inputIcon:before{
+  font-family: FontAwesome;
+  color: #2196f3;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 265px;
+
+}
+
+.inputLogin:before{
+  content: "\f007";
+}
+
+.inputPassword:before{
+  content: "\f023";
+}

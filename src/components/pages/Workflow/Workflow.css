@@ -1,0 +1,60 @@
+.WorkflowHeader{
+  background-color: #237fca;
+  padding: 30px 0;
+  margin-bottom: 50px;
+}
+
+.WorkflowHeaderContent, .LeftWorkflowHeader, .RightWorkflowHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LeftWorkflowHeader h2{
+  margin-right: 30px;
+}
+
+.SelectTitle{
+  margin-right: 30px;
+  font: normal 1.125rem 'Montserrat', sans-serif;
+  color: #fff;
+
+}
+
+.TitleHeader{
+  font: normal 1.125rem 'Montserrat', sans-serif;
+  color: #2b2d3c;
+  cursor: pointer;
+}
+
+.ActiveTitleHeader{
+  font: normal 1.125rem 'Montserrat', sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+.WorkflowContent{
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 1150px;
+  max-width: 100%;
+}
+
+.WorkflowContent::-webkit-scrollbar {
+  height: 0.5em;
+}
+
+.WorkflowContent::-webkit-scrollbar-thumb {
+  background: #2196f3;
+  border-radius: 50px;
+}
+
+.WorkflowContent::-webkit-scrollbar-track {
+  background: #4e5160;
+  border-radius: 50px;
+}
+
+@media (max-width: 1280px) {
+
+}
